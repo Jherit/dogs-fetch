@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dogs-fetch/static/css/main.cc76c788.css",
+    "main.js": "/dogs-fetch/static/js/main.bc6014db.js",
+    "static/js/787.04f30792.chunk.js": "/dogs-fetch/static/js/787.04f30792.chunk.js",
+    "index.html": "/dogs-fetch/index.html",
+    "main.cc76c788.css.map": "/dogs-fetch/static/css/main.cc76c788.css.map",
+    "main.bc6014db.js.map": "/dogs-fetch/static/js/main.bc6014db.js.map",
+    "787.04f30792.chunk.js.map": "/dogs-fetch/static/js/787.04f30792.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc76c788.css",
+    "static/js/main.bc6014db.js"
+  ]
+}

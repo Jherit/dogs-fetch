@@ -10,6 +10,10 @@ function App() {
     FetchDogHandler();
   }, []);
 
+  useEffect(() => {
+    document.title = "Create Dog React App"
+ }, []);
+
  function FetchDogHandler() {
     setIsLoading(true);
     fetch('https://dog.ceo/api/breeds/image/random').then(response => {

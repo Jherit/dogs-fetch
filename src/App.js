@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Create Random Dog React App</h1>
+        <h1>Create Random Dog - React App</h1>
         {!isLoading && <DogFrame dogs={dogs} />}
         {isLoading && <p>Releasing the hounds...</p>}
         <button className="AppDogButton" onClick={FetchDogHandler}>🐕 Tap for a new dog 🐕</button>

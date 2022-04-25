@@ -1,40 +1,39 @@
-*{
-  /* font-family:Georgia, 'Arial Narrow Bold', sans-serif */
-}
-
 .App {
   text-align: center;
-  max-width:420px;
+  max-width:unset;
   margin:0px auto;
 }
 
-
 h1 {
   font-size:2rem;
-  color:rgb(16, 6, 6);
+  color:bisque;
+  font-family: 'Lilita One', cursive;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .AppDogButton {
-  padding:20px;
+  padding: 20px 32px;
   border:3px solid rgb(16, 6, 6);
   cursor: pointer;
   background-color: bisque;
-  font-size:2rem;
+  font-size:1.8rem;
+  font-family: 'Lilita One', cursive;
   border-radius: 10px;
-  font-weight:bold;
+  bottom: 0px;
+  right: 0px; 
+  margin:10px;
+  color: #4a3382;
+  font-weight: 100;
+  width: 98%;
+  max-width:380px;
+  margin:20px auto;
 }
 
 .AppDogButton:hover{
-
   background-color: rgb(221, 255, 0);
-
 }
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-
-}
 
 .App-header {
   display: flex;
@@ -49,3 +48,16 @@ h1 {
   color: #4f0355;
 }
 
+@media (max-width:420px) {
+
+  .App {
+    max-width:420px;
+  }
+  .AppDogButton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    margin:10px;
+    width: calc(100% - 20px);
+  }
+}

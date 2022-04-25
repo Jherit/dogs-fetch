@@ -1,13 +1,21 @@
 .dogPic {
-   
-    border:3px solid rgb(16, 6, 6);
+    border:3px solid bisque;
     background-color: bisque;
     border-radius: 10px;
     max-width: 100%;
     height: auto;
+    max-height:unset;
+   
 }
 
 .dogFrame{
-    /* min-height:600px;
-    max-height:600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+@media (max-width:420px) {
+    .dogPic {
+        max-height:360px;
+    }
+  }
